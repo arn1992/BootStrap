@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>wells and alertbox</title>
+
+
+
+</head>
+<body>
+
+
+<!--top menu bar-->
+<nav class="navbar navbar-inverse ">
+    <div class="container-fluid">
+
+        <!--logo-->
+        <div class="navbar-header">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                 <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+             </button>
+            <a href="#" class="navbar-brand">ARN</a>
+        </div>
+
+        <!--logo-->
+        <!--Menu Items-->
+        <div class="collapse navbar-collapse" id="mainNavBar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a> </li>
+                  <li><a href="#">About</a> </li>
+                  <li><a href="#">Contact</a> </li>
+
+                <!--Drop Down-->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"data-toggle="dropdown">My Profile <span class="caret"></span> </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Friends</a> </li>
+                        <li><a href="#">Photos</a> </li>
+                        <li><a href="#">Settings</a> </li>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</nav>
+
+<!--main content-->
+<div class="container">
+    <h2>wells are actions with borders and grey backgrounds</h2>
+
+    <div class="well">Basic well</div>
+
+    <div class="well well-small">Small well</div>
+
+    <div class="alert alert-success">Congratulations, you just won this one!!!</div>
+    <div class="alert alert-danger">Sorry.....you just lost this one!!!</div>
+    <div class="alert alert-info">this is Amber's Birthday</div>
+
+
+    <div class="alert alert-info"> <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+       close or stay
+    </div>
+
+      <div class="alert alert-danger fade in"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          Sorry.....this is fade in!!!</div>
+    
+
+</div>
+
+
+</body>
+</html>
